@@ -91,3 +91,19 @@ This project reflects my passion for combining cutting-edge technology with fina
 1. Dependency on External APIs: Reliance on financial news websites and Bright Data may introduce challenges like API rate limits, scraping restrictions, or data availability.
 2. High Maintenance: Requires regular updates to the scraper and embedding algorithms to adapt to changes in website structures and news patterns.
 
+
+## Sample images of Working model
+
+
+![Screenshot 2024-11-24 at 4 40 44 PM](https://github.com/user-attachments/assets/b1ee3f91-3ae2-4296-83e8-54ed1e8a8e4e)
+
+
+
+![Screenshot 2024-11-24 at 4 40 01 PM](https://github.com/user-attachments/assets/2d45046d-a84d-42b8-8b29-a64e8cfbde06)
+
+
+![Screenshot 2024-11-24 at 4 39 02 PM](https://github.com/user-attachments/assets/32808a9d-17ab-4be4-856c-d877ed48ea40)
+
+
+
+
