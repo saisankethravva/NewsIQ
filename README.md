@@ -19,11 +19,8 @@ NewsIQ is a user-friendly news research tool designed for effortless information
 ```bash
   git clone https://github.com/saisankethravva/NewsIQ.git
 ```
-2.Navigate to the project directory:
+2.Navigate to the project directory
 
-```bash
-  cd 2_news_research_tool_project
-```
 3. Install the required dependencies using pip:
 
 ```bash
@@ -65,3 +62,32 @@ streamlit run main.py
 - requirements.txt: A list of required Python packages for the project.
 - faiss_store_openai.pkl: A pickle file to store the FAISS index.
 - .env: Configuration file for storing your OpenAI API key.
+
+
+## Why I did this project
+
+Stock investing requires staying informed about market trends, company performance, and financial news. Managing a portfolio of 50 stocks with a total value of $30,000 presents the challenge of continuously tracking quarterly reports, company news, and market insights. Over time, this manual process became increasingly tedious and time-consuming.
+
+To address this, I developed NewsIQ, a user-friendly news research tool that simplifies information retrieval for stock market enthusiasts and investors. The purpose of this project was to streamline the process of analyzing stock-related news and quarterly reports, making it more efficient and accessible. By allowing users to input article URLs and ask questions, NewsIQ provides relevant insights from the financial domain, helping users stay informed without the need to sift through overwhelming amounts of information.
+
+This project reflects my commitment to leveraging technology for personal finance management and creating tools that enhance decision-making in stock investing. NewsIQ bridges the gap between raw financial data and actionable insights, making it easier to stay updated and make informed investment choices.
+
+
+## Future Enhancements.
+
+NewsIQ is currently a proof of concept for a comprehensive project that aims to revolutionize how investors access and interpret financial news. While the current iteration demonstrates the potential of retrieving insights from article URLs, future plans focus on building a robust data ingestion system. This system will include a web scraper powered by Bright Data, capable of scanning major financial news platforms like The Economic Times, Wall Street Journal, Bloomberg, CNBC, and Investopedia on a scheduled basis using cron jobs.
+
+The scraped articles will be processed to generate embeddings and stored in a vector database, enabling efficient retrieval of contextually relevant information. To enhance usability, I plan to develop an intuitive user interface using React, featuring chat capabilities that interact with the vector database. This setup will allow users to query the database, retrieve similar chunks of data, and get precise, actionable insights.
+
+This project reflects my passion for combining cutting-edge technology with financial analysis to streamline stock market research, enabling better-informed investment decisions.
+
+## Likes
+
+1. Time-Saving: Automates the tedious process of gathering and summarizing financial information, allowing investors to focus on decision-making.
+2. Educational Value: Offers an opportunity to work with advanced tools like Bright Data, embeddings, and vector databases, providing learning and development potential.
+
+
+## Dislikes:
+1. Dependency on External APIs: Reliance on financial news websites and Bright Data may introduce challenges like API rate limits, scraping restrictions, or data availability.
+2. High Maintenance: Requires regular updates to the scraper and embedding algorithms to adapt to changes in website structures and news patterns.
+
